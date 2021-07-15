@@ -2,9 +2,24 @@ body {
   color: #757575;
   background-color: #ffffff;
 }
+/* =======код відключання======= */
 .list {
   list-style: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* =======Логотип======= */
 
 .nav__logo_span {
   font-family: Raleway;
@@ -28,7 +43,7 @@ body {
   color: #000000;
   text-decoration: none;
 }
-/* site-nav */
+/* =======розмітка Хедера======= */
 .link {
   color: #212121;
 }
@@ -43,15 +58,31 @@ body {
 .contact__link {
   color: #757575;
 }
-/* герой */
+/* =======розмітка героя======= */
+
 .hero {
   background-color: #2f303a;
 }
 .title {
   color: white;
 }
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
 
-/* Розмітка футера */
+/* =====Розмітка Features===== */
+
+.section__title {
+  color: #212121;
+}
+
+/* =====Розмітка Футера===== */
+
 .address__footer {
   font-style: normal;
 }
