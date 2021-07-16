@@ -2,6 +2,13 @@ body {
   color: #757575;
   background-color: #ffffff;
 }
+/* =======Кольори======= */
+/* колір основного тексту #212121 */
+/* колір вторинного тексту #757575 */
+/* білий #FFFFFF */
+/* акцентний колір #2196f3 */
+/* вторинний колір тексту #F5F4FA */
+
 /* =======код відключання======= */
 .list {
   list-style: none;
@@ -77,8 +84,11 @@ body {
 
 /* =====Розмітка Features===== */
 
-.section__title {
+.title {
   color: #212121;
+}
+.hero__title {
+  color: #ffffff;
 }
 
 /* =====Розмітка Футера===== */
@@ -96,5 +106,19 @@ body {
   background-color: #2f303a;
 }
 .footer__logo {
+  color: #ffffff;
+}
+/* =======кнопки портфоліо======= */
+.portfolio__button {
+  background-color: #f5f4fa;
+  color: #212121;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 6px 22px;
+}
+.portfolio__button:hover,
+.portfolio__button:focus {
+  background-color: #2196f3;
   color: #ffffff;
 }
